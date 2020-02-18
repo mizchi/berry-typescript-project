@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@types/babel-types": "^7.0.7",
+    "@types/eslint": "6.1.8",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "@types/prettier": "1.19.0",
+    "@types/webpack": "4.41.6",
+    "@yarnpkg/pnpify": "^2.0.0-rc.18",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "jest-pnp-resolver": "^1.2.1",
+    "pnp-webpack-plugin": "^1.6.3",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.0",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
